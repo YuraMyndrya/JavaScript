@@ -1,0 +1,11 @@
+let mass= [1, {name: 'Yura'}, true, NaN, [1, 2], 'okten', undefined, 8, false, 10];
+console.log(mass[0]);
+console.log(mass[1]);
+console.log(mass[2]);
+console.log(mass[3]);
+console.log(mass[4]);
+console.log(mass[5]);
+console.log(mass[6]);
+console.log(mass[7]);
+console.log(mass[8]);
+console.log(mass[9]);
