@@ -38,8 +38,6 @@ let color = prompt('enter your color');
 let isRoadClear = confirm('is road clear?');
 if (color === 'green' && isRoadClear) {
     console.log('go');
-
-
 }else if (color === 'yellow') {
     console.log('wait');
 }else if (color === 'red'){
