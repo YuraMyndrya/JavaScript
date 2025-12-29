@@ -12,11 +12,12 @@
 //     {name: 'vova', age: 24, status: true},
 // ]
 //
-// // for (let i = 0; i < users.length; i++) {
-// //     let user = users[i];
-// //     document.write(`<h2> ${user.name}, ${user.age} - ${user.status} </h2>`);
-// // }
-//
+// debugger;
+// for (let i = 0; i < users.length; i++) {
+//     let user = users[i];
+//     console.log(users[i]);
+// }
+
 // //itar + enter , побудує останній цикл який був
 //
 // for (let i = 0; i < users.length; i++) {
