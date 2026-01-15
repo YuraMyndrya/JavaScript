@@ -27,13 +27,17 @@ let products = [
 
 for ( const product of products) {
 
-document.write (`
+document.write
+(`<div class="product_card">
 
-<div class="product_card">
-    <h3 class="product_title">${product.title}: Price-${product.price}</h3>
-    <img src="${product.image}" alt="" class="product_image">
-</div>
-
-`)
+    <h3 class="product_title"> 
+        ${product.title}: 
+        <br> 
+        Price ${product.price} 
+    </h3>
+    
+    <img src="${product.image}" alt="#" class="product_image">
+    
+</div>`)
 }
 

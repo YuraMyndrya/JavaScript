@@ -1,7 +1,12 @@
+//-----------------------------------------------------------------
+// let x = 0;
+// while (x < 10) {
+//     document.write(`<div> while: ${x+1} </div>`);
+//     x++;
+// }
+
+
+//------------------------------------------------------------------
 for (let i = 0; i <10; i++) {
-    // document.write('<div> home work ' +i+ ' </div>');
-
-    document.write(`<div> home work ${i} </div>`);
-    // зручніший спосіб
-
+    document.write(`<div> for ${i+1} </div>`);
 }

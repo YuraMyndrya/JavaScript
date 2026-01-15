@@ -20,6 +20,6 @@
 
 let i = 0;
 while (i < 20) {
-    document.write(`<h1> home work 3_3 </h1>` )
+    document.write(`<div>  3_3_hw ${i+1} </div>` )
     i++;
 }
