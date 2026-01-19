@@ -20,7 +20,7 @@ body {
     justify-content: center;
     border: solid black 1px;
     border-radius: 10px;
-    transition: background-color 0.5s;
+    transition: background-color 0.7s;
 }
 
 .user_block:hover {
