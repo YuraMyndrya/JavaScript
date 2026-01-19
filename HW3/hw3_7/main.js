@@ -1,5 +1,4 @@
 let users =[
-
 {name: 'vasya', age: 31, status: false},
 {name: 'petya', age: 30, status: true},
 {name: 'kolya', age: 29, status: true},
@@ -11,17 +10,12 @@ let users =[
 {name: 'masha', age: 30, status: true},
 {name: 'olya', age: 31, status: false},
 {name: 'max', age: 31, status: true}
-
 ];
 
-
-
 // for (let i = 0; i < users.length; i++) {
-//
 //     if (users[i].status) {
 //         console.log(users[i]);
 //     }
-//
 // }
 
 

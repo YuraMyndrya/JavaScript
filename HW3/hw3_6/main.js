@@ -32,7 +32,6 @@ document.write
 
     <h3 class="product_title"> 
         ${product.title}: 
-        <br> 
         Price ${product.price} 
     </h3>
     
