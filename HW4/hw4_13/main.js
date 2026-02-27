@@ -41,5 +41,5 @@ console.log(exchange(10000,
         {currency: 'PLN', value: 12},
         {currency: 'CZK', value: 2},
     ],
-    'EUR')
+    'USD')
 );
