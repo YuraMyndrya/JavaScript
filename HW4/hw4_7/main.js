@@ -11,7 +11,7 @@ foobar('OOOOOOOOOOkten is Cooooooooooool', 10);
 
 
 //---------------------------------------------------------------------//
-function my(itWasname, itWasHowManyDiv) {
+function my(itWasName, itWasHowManyDiv) {
     document.write('<div class="box_main">');
 
     for (let a = 0; a < itWasHowManyDiv; a++) {
@@ -21,4 +21,4 @@ function my(itWasname, itWasHowManyDiv) {
     document.write('</div>');
 }
 
-my('10', 7)
+my('10', 7);
