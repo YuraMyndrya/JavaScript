@@ -15,10 +15,10 @@ function my(itWasName, itWasHowManyDiv) {
     document.write('<div class="box_main">');
 
     for (let a = 0; a < itWasHowManyDiv; a++) {
-        document.write(`<div class="box_in">  ${itWasname} </div>`)
+        document.write(`<div class="box_in"> ${itWasName} </div>`)
     }
 
     document.write('</div>');
 }
 
-my('10', 7);
+my('Name', 7);
