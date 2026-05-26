@@ -61,3 +61,62 @@ for (let m = 0; m < numbers5.length; m++) {
         console.log(numbers5[m]);
     }
 }
+
+// Є масив з числами [100,250,50,168,120,345,188], Які характеризують вартість окремої покупки. Обрахувати середній чек.
+
+const numbers6 = [100,250,50,168,120,345,188];
+
+let sum= 0;
+
+for (let n = 0; n < numbers6.length; n++) {
+    sum = sum + numbers6[n];
+}
+
+let averageSum = sum/numbers6.length;
+console.log(Math.floor(averageSum));
+
+
+// 7. Створити масив з рандомними значеннями, помножити всі його елементи на 5 та перемістити їх в інший масив.
+const numbers7 = [];
+const numbersX5 = [];
+
+console.log('----------Рандомні 10 чисел------------')
+for (let p = 0; p < 10; p++) {
+    numbers7.push(Math.floor(Math.random()* 100));
+}
+console.log(numbers7);
+
+console.log('-----------X5------------')
+const numbers8 = [];
+for (const numb of numbers7) {
+    numbersX5.push(numb*5);
+}
+console.log(numbersX5);
+// //Створити масив з рандомними значеннями, помножити всі його елементи на 5 та перемістити їх в інший масив.
+//
+// const numbersRandom = [];
+// const X5 = []
+// for (let k = 0; k < 10; k++) {
+//     numbersRandom.push(Math.floor(Math.random()*100));
+// }
+//
+// console.log('------------------------------------------');
+// console.log(numbersRandom);
+//
+// for ( const numb of numbersRandom) {
+//     X5.push(numb*5);
+// }
+// console.log(X5);
+
+
+// 8. Створити масив з будь-якими значеннями (стрінги, числа, і тд…). пройтись по ньому, і, якщо елемент є числом, додати його в інший масив.
+
+
+const arr8 = [true,'anna' ,50,168,'oksana', false,120];
+const newArr8_Numbers = [];
+for (let numb of arr8) {
+    if (typeof numb === 'number') {
+        newArr8_Numbers.push(numb);
+    }
+}
+console.log(newArr8_Numbers);
