@@ -11,8 +11,8 @@ console.log(str);
 
 
 // ---3---- перевірка на точне  співпадіння символів початку рядка та кінець рядка
-// console.log(str.startsWith('HeLLo o')); // початку рядка
-// console.log(str.endsWith('kten')); // кінець рядка
+// console.log(str.startsWith('HeL')); // початку рядка
+// console.log(str.endsWith('enLL')); // кінець рядка
 
 // ---4---- обрізає все до перших a-х індексів включно, та починаючи з b-го ... індексу все теж обрізає (a,b)
 // console.log(str.substring(2,7));

@@ -1,26 +1,24 @@
 // -----6_4---------
-// function calc(a, b, callback) {
-//     return callback(a, b);
-// }
-//
-// console.log(calc(10, 20, (a, b) => {
-//     return a + b;
-// }));
+function calc(a, b, callback) {
+    return callback(a, b);
+}
 
-// -----6_5---------
-// function filter(arr, callback) {
-//     let mass = [];
-//     for (const item of arr) {
-//         if (callback(item)) {
-//             mass[mass.length] = item;
-//         }
-//     }
-//     return mass;
-// }
-//
-// console.log(filter([11, 22, 33, 44, 55],function (item) {
-//     return item % 2 ===0;
-// }));
+console.log(calc(10, 20, function (a, b) {
+    return a + b;
+}));
+
+
+// --------------------------------------6_5---------
+function filter(arr, callback) {
+    let mass = [];
+    for (const item of arr) {
+        if (callback(item)) {
+            mass[mass.length] = item;
+        }
+    }
+    return mass;
+}
+
 
 let users = [
     {name: 'vasya', age: 31, status: false},
@@ -35,18 +33,24 @@ let users = [
     {name: 'olya', age: 31, status: false},
     {name: 'max', age: 31, status: true},
 ];
+
+console.log(
+    filter(users, function (user) {
+        return user.age > 30;
+    })
+);
+
 // -----Універсальний фільтр / умови  if (callback(item)) - мається на увазі якщо  return user.age >30; дійсно так
 // типу true то виведе в консоль, так можна запитати будь що
-function filter(arr, callback) {
-    let mass = [];
-    for (const item of arr) {
-        if (callback(item)) {
-            mass[mass.length] = item;
-        }
-    }
-    return mass;
-}
 
-console.log(filter(users, function (user) {
-    return user.age >30;
-}));
+// console.log одразу
+
+
+// або console.log зберігаю функц в окрему змінну та вєе виводжу саму змінну.
+
+// let results = filter(users, function (user) {
+//     return user.age > 30;
+// });
+//
+// console.log(results);
+
