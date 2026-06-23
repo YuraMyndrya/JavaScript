@@ -9,3 +9,4 @@ console.log(user1);
 console.log('notebook3');
 console.log('computer4');
 console.log('notebook6');
+console.log('computer7');
