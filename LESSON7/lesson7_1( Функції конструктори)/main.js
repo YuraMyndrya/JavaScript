@@ -6,4 +6,4 @@ function User(name, age, status) {
 
 let user1 = new User('asd', 123, true);
 console.log(user1);
-1111111111
+
