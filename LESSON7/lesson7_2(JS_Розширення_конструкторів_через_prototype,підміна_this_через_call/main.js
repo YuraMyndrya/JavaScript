@@ -1,10 +1,9 @@
-//User.prototype.greeting використовують одну й ту саму функцію, додай у спільне місце для всіх об'єктів
-
 function User(name, age) {
     this.name = name;
     this.age = age;
 }
 
+//User.prototype.greeting використовують одну й ту саму функцію, додай у спільне місце для всіх об'єктів
 User.prototype.greeting = function () {
     return `Hello, my name is ${this.name} , my age is ${this.age}`;
 };
