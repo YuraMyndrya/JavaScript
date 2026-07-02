@@ -1,5 +1,5 @@
 
-//V4 or/mast
+// V4 or/mast
 
 function User(name, age) {
     this.name = name;
