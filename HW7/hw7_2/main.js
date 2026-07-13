@@ -1,6 +1,4 @@
-//– Створити функцію конструктор для об’єктів User з полями id, name, surname , email, phone
-//
-// створити пустий масив, наповнити його 10 об’єктами new User(….)
+//– Взяти масив з  User[] з попереднього завдання, та відфільтрувати, залишивши тільки об’єкти з парними id (filter)
 function User(id, name, surname, phone) {
     this.id = id;
     this.name = name;
@@ -21,4 +19,9 @@ let users = [
     new User(10, 'Vadim', 'Vindizel', '+104546643146')
 ]
 
-console.log(users);
+// const filterFunction = (user) =>  user.id % 2 === 0;
+// const usersFilter = users.filter (filterFunction);
+// console.log(usersFilter);
+
+const usersFilter = users.filter((user) => user.id % 2 === 0);
+console.log(usersFilter);
