@@ -11,13 +11,12 @@ function Client(id, name, surname, email, phone, ...products) {
     this.order = products;
 }
 
-function Product(tittle, price) {
-    this.tittle = tittle;
-    this.price = price;
+function Product(nazvatovaru, tsina) {
+    this.tittle = nazvatovaru;
+    this.price = tsina;
 }
 
-let Clients;
-Clients = [
+let Clients = [
     new Client(1, 'Yurii', 'Messi', '111@gmail.com', '+18565448566', new Product('tv', 11000), new Product('phone', 1000)),
     new Client(2, 'Taras', 'Teodor', '111@gmail.com', '+2456418564816', new Product('tv', 21000), new Product('phone', 2000)),
     new Client(3, 'Daniil', 'Danya', '111@gmail.com', '+3854785646', new Product('tv', 31000), new Product('phone', 3000)),
