@@ -6,14 +6,12 @@
 //     — changeYear (newValue) – змінює рік випуску на значення newValue
 //     — addDriver (driver) – приймає об’єкт який “водій” з довільним набором полів, і додає його в поточний об’єкт car
 
-function Car(mode, producer, year, maxSpeed, engineVolume, engineDisplacement) {
+function Car(mode, producer, year, maxSpeed, engineVolume) {
     this.mode = mode
     this.producer = producer
     this.year = year
     this.maxSpeed = maxSpeed
     this.engineVolume = engineVolume
-
-    // this.engineDisplacement = engineDisplacement
 
     this.drive = function () {
         console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`)
